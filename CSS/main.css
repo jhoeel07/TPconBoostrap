@@ -594,7 +594,13 @@ button{
         height: 50px;
         width: 100%;
     }
-
+    .carousel {
+      
+        width: 400px; 
+        height:auto; 
+        margin: auto;
+        transition:2s ease;
+       }
 
 
   
@@ -604,12 +610,12 @@ button{
 
     }
  
-    .mas_vendido {
+    /* .mas_vendido {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
 
-    }
+    } */
     .mas_vendidos_fotos{
 
          width: 400px;
@@ -785,10 +791,7 @@ button{
 
       @keyframes movimiento-logo {
 
-          0%{
 
-            border-color: yellow;
-          }
 
           25%{
 
@@ -798,7 +801,7 @@ button{
 
           50%{
 
-            transform: rotateY(360deg);
+            transform: rotateX(360deg);
           }
       }
     
@@ -806,7 +809,7 @@ button{
 
     /*-------------------------- partes hover ----------------*/
     
- 
+
     .cajaJordan1:hover,.mas_vendidos_fotos:hover{
 
         border-color: chartreuse;
@@ -829,7 +832,15 @@ button{
         transform: scale(1.1);
 
     }
+/* ACA ESTA EL FONDDO DE TODOO */
 
+body{
+  
+    background-attachment: fixed;
+    background-image: url("../imag/menu/fondo-nav.jpg");
+
+    background-repeat: repeat;
+}
 
 
 }
