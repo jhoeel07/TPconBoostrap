@@ -2,6 +2,7 @@
     padding: 0; /*HACER ESTO SIEMPRE POR QUE ES RECOMENDABLE*/
     margin: 0;
     box-sizing: border-box;
+    font-style: italic;
     
 }
 
@@ -30,11 +31,7 @@ h1{
 
    grid-area: navPrincipal;
 
-     /* font-size: medium;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center; */
+
 }
 
 
@@ -47,6 +44,7 @@ h1{
 
 
 .header{
+
 
     grid-area: header;
     text-align: center;
@@ -213,54 +211,7 @@ button{
 
 
 
-/*--------------------navegador-----------------------------------*/
 
-
-
-/*.navPrincipal{
-  
-    width: 100%;
-  
-    background-color: black;
-    padding: 5px;
-    
-    
-}
- .navPrincipal__ul li{
- 
-  
-    display: inline-block;
-
-   
-}
-.navPrincipal__ul li a{
-
-    color: brown;
-    
-    margin: 5px;
-    text-decoration: none;
-}
-
-.navPrincipal__ul li a:hover{
-    background-color: rgb(236, 214, 185);
-}
-.navPrincipal__ul{
-   
-
-    display: inline;
-
-}
-.navPrincipal_buscar{
-
-    display: inline;
-  
-  
-}
-.navPrincipal_buscar_espacioBusqueda{
-    border-radius: 50px;
-    width: 100%;
-    padding: 2px;
-} */
 /*-------------este son los estilos de la seccion FOOTER---------------------*/
 .nav_secu{
     
@@ -366,7 +317,7 @@ button{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-  
+    align-items: center;
 
 
 
@@ -511,12 +462,7 @@ button{
         font-size: 50px;
 
     }
-    /* .navPrincipal__ul li a{
 
- 
-        font-size:xx-large;
-
-    } */
 
 
     button{
@@ -548,22 +494,6 @@ button{
 
     }
 
-    /* navegador tablet */
-    /* .navPrincipal{
-        
-      height: 20vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-        background-color: antiquewhite;
-        
-    }
-    .navPrincipal_buscar_espacioBusqueda{
-        border-radius: 0;
-
-        padding: 2px;
-    } */
-
 }
 
 
@@ -594,6 +524,7 @@ button{
         height: 50px;
         width: 100%;
     }
+    /* ----------------------------------------MODIFICACIONES A BOOSTRAP----------------------------------- */
     .carousel {
       
         width: 400px; 
@@ -601,8 +532,12 @@ button{
         margin: auto;
         transition:2s ease;
        }
+       .container{
 
+        margin-top: 20PX;
+       }
 
+ /* ----------------------------------------MODIFICACIONES A BOOSTRAP FIN ----------------------------------- */
   
     .caja_Formulario{
 
@@ -610,12 +545,7 @@ button{
 
     }
  
-    /* .mas_vendido {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-    } */
+  
     .mas_vendidos_fotos{
 
          width: 400px;
@@ -624,23 +554,6 @@ button{
 
 
 
-    /* .navPrincipal{
-        flex-direction: row;
-       align-items: center;
-       background: rgb(0,0,0);
-       background: radial-gradient(circle, rgba(0,0,0,1) 4%, rgba(41,47,47,1) 100%);
-          
-     }
-
-    .navPrincipal_buscar{
-        border-radius: 0;
-        width: 100%;
-        padding: 2px;
-    }
-
-    .navPrincipal__ul li a{
-        font-size: 30px;
-    } */
     /*--------------estilo a la seccion Sneakers-------------*/
 
     .sneakers{
