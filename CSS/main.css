@@ -91,7 +91,7 @@ h1{
     display: none;
 }
 
-button{
+ button{
 
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 4%, rgba(41,47,47,1) 100%);
@@ -103,7 +103,14 @@ button{
     width: 50px;
 
 
+} 
+/*----------------------- BOOTSTRAP------------------------- */
+
+.accordion-button {
+
+    background: chartreuse;
 }
+/*----------------------- FIN BOOTSTRAP------------------------- */
 
 
 
@@ -464,7 +471,7 @@ button{
     }
 
 
-
+/* 
     button{
 
         background: rgb(0,0,0);
@@ -476,7 +483,7 @@ button{
         width: 100%;
     
     
-    }
+    } */
 
     .mas_vendidos_fotos{
 
@@ -536,7 +543,15 @@ button{
 
         margin-top: 20PX;
        }
+.accordion-button {
 
+    background: chartreuse;
+}
+.accordion-body{
+
+    background: rgb(0, 0, 0);
+
+}
  /* ----------------------------------------MODIFICACIONES A BOOSTRAP FIN ----------------------------------- */
   
     .caja_Formulario{
