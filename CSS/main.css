@@ -552,6 +552,11 @@ h1{
     background: rgb(0, 0, 0);
 
 }
+.accordion{
+
+    margin-bottom: 20px ;
+}
+
  /* ----------------------------------------MODIFICACIONES A BOOSTRAP FIN ----------------------------------- */
   
     .caja_Formulario{
